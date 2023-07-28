@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
+    <title>Prueba técnica</title>
+    <style>
+    .area-Mensaje {
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  .Usuario{
+    background-color: #a9add6;
+    margin-right: 10px;
+    margin-left: 100px;
+  }
+
+  .Random{
+    background-color: rgb(178, 180, 190);
+    margin-right: 20px;
+    text-align: left;
+  }
+    </style>
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
     <div class="div-menu">
         <div class="logo">
             <img src="img/logo.png" height="80px" width="80px" >
@@ -50,13 +69,16 @@
         </div>
 </div>
 <div class="conversacion">
-    <div class="texto-completo">
         <p class="mensaje"><img src="img/persona.png" height="35px" width="35px"><strong>William Wright</strong></p>
-        <p><input type="text" id="inputText" readonly="readonly"></p>
-        <p><input type="text" id="inputText2"><input type="button" id="botonTexto" onclick="enviarTexto()" value="Enviar"></p>
-    </div>
+        <hr>
+        <div id="area-Mensaje">
+        </div>
+        <div id="usuario-input">
+            <input type="text"id="texto" placeholder="Escribe tu mensaje"></input>
+            <button id="boton-enviar">Enviar</button>
+        </div>
 </div>
 </div>
-
+<script src="js/index.js"></script>
 </body>
 </html>
