@@ -7,6 +7,7 @@ body{
 .div-menu{
     border-right:1px solid rgb(184, 184, 184);
     background-color: rgb(250, 250, 250);
+    max-height: 700px;
 }
 .logo img{
     padding-bottom: 5rem;
@@ -30,6 +31,7 @@ ul{
     padding: 0rem 2rem 0rem 2rem;
     /*top right bottom left*/
     width: 20%;
+    max-height: 700px;
     
 }
 .mensajes h3{
@@ -80,8 +82,12 @@ ul li{
     padding-left: 70px;
 }
 .conversacion{
-    background-color: white;
-    width: 950px;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    border: 1px solid rgb(160, 149, 149);
+    margin: 25px;
+    border-radius: 5%;
+    max-height: 600px;
 
 }
 .texto-completo{
@@ -99,33 +105,27 @@ ul li{
     border-radius: 50%;
     border: 1px solid black;
 }
-.mensaje_usuario{
-    margin: 40px 500px 40px 50px;
-    padding: 15px;
-    border: 1px solid grey;
-    border-radius: 4%;
-    background-color: rgb(209, 218, 235);
-
-}
-.mensaje_usuario small{
-    padding-left: 175px;
-}
-.respuesta_usuario{
-    margin: 40px 60px 40px 450px;
-    padding: 15px;
-    border: 1px solid grey;
-    border-radius: 4%;
-    background-color: rgb(209, 218, 235);
-}
-.respuesta_usuario small{
-    padding-left: 250px;
-}
-label{
-    padding-left: 50px;
+button{
+    padding: 10px;
 }
 button:hover{
-    background-color: rgb(209, 218, 235);
+    background-color: rgb(180, 180, 180);
 }
-.enviar{
-    padding-top: 80px;
+.mensaje{
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#usuario-input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#texto{
+    padding: 10px 500px 10px 10px;
+    margin-top: 400px;
+}
+#area-Mensaje{
+    max-height: 300px;
+    overflow-y: auto;
 }
